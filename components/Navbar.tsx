@@ -26,15 +26,15 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-700 ${
-        scrolled ? "glass shadow-sm" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-700 ${scrolled ? "glass shadow-sm" : "bg-transparent"
+        }`}
     >
       <nav className="section-padding mx-auto flex h-20 max-w-7xl items-center justify-between">
         <a href="#" className="group flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-ink text-sm font-bold text-white transition-transform duration-500 group-hover:scale-105">
+          {/* <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-ink text-sm font-bold text-white transition-transform duration-500 group-hover:scale-105">
             X
-          </span>
+          </span> */}
+          <img width={30} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTst2rwzFAY-uArjGzS8Y-25yuU8V9QnygwTatbH-kBw&s" alt="" />
           <span className="text-lg font-semibold tracking-tight">XMedia</span>
         </a>
 
