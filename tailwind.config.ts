@@ -15,9 +15,9 @@ const config: Config = {
           faint: "#A3A3A3",
         },
         accent: {
-          DEFAULT: "#6366F1",
-          light: "#818CF8",
-          soft: "#EEF2FF",
+          DEFAULT: "#00DF0B",
+          light: "#33FF44",
+          soft: "#F0FDF4",
         },
         surface: {
           DEFAULT: "#FAFAFA",

@@ -13,28 +13,15 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden pt-20">
       <div className="hero-grid absolute inset-0 opacity-60" />
-      <div className="absolute -right-32 -top-32 h-[600px] w-[600px] rounded-full bg-gradient-to-br from-accent/10 via-purple-100/30 to-transparent blur-3xl" />
+      <div className="absolute -right-32 -top-32 h-[600px] w-[600px] rounded-full bg-gradient-to-br from-accent/10 via-accent-soft/30 to-transparent blur-3xl" />
       <div className="absolute -bottom-48 -left-48 h-[500px] w-[500px] rounded-full bg-gradient-to-tr from-amber-50 via-orange-50/50 to-transparent blur-3xl" />
 
       <div className="section-padding relative mx-auto flex max-w-7xl flex-col items-center justify-center px-6 pb-24 pt-16 text-center md:pt-24">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: softEase }}
-          className="mb-8 inline-flex items-center gap-2 rounded-full border border-black/8 bg-white/80 px-4 py-1.5 text-sm text-ink-muted shadow-sm backdrop-blur-sm"
-        >
-          <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
-          </span>
-          {t.hero.badge}
-        </motion.div>
-
         <motion.h1
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.1, ease: softEase, delay: 0.15 }}
-          className="text-balance max-w-4xl text-5xl font-semibold leading-[1.08] tracking-tight md:text-7xl lg:text-8xl"
+            className="text-balance max-w-4xl text-4xl font-semibold leading-[1.2] tracking-tight md:text-5xl lg:text-6xl"
           style={{ fontFamily: "var(--font-display), 'Instrument Serif', serif" }}
         >
           {t.hero.title1}{" "}
@@ -53,8 +40,8 @@ export default function Hero() {
               />
               <defs>
                 <linearGradient id="underline" x1="0" y1="0" x2="300" y2="0">
-                  <stop stopColor="#6366F1" />
-                  <stop offset="1" stopColor="#A78BFA" />
+                  <stop stopColor="#00DF0B" />
+                  <stop offset="1" stopColor="#33FF44" />
                 </linearGradient>
               </defs>
             </svg>

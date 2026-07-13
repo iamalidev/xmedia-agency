@@ -58,7 +58,7 @@ export default function WhyUs() {
                     &ldquo;{t.whyUs.testimonial}&rdquo;
                   </p>
                   <footer className="mt-6 flex items-center gap-3">
-                    <div className="h-10 w-10 rounded-full bg-gradient-to-br from-pink-400 to-purple-500" />
+                    <div className="h-10 w-10 rounded-full bg-gradient-to-br from-emerald-400 to-accent" />
                     <div>
                       <div className="text-sm font-semibold">
                         {t.whyUs.testimonialAuthor}

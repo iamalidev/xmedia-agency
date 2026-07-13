@@ -51,8 +51,8 @@ export default function CTA() {
           className="relative overflow-hidden rounded-[2.5rem] bg-ink px-6 py-16 text-white md:px-12 md:py-20 lg:px-16"
         >
           <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full bg-accent/30 blur-3xl" />
-          <div className="absolute -bottom-20 -right-20 h-64 w-64 rounded-full bg-purple-500/20 blur-3xl" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(99,102,241,0.15),transparent_50%)]" />
+          <div className="absolute -bottom-20 -right-20 h-64 w-64 rounded-full bg-accent/20 blur-3xl" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(0,223,11,0.15),transparent_50%)]" />
 
           <div className="relative grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
             {/* Left — text & call */}
