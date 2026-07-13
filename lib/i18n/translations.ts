@@ -1,7 +1,6 @@
 export type Locale = "uz" | "ru";
 
-export const translations = {
-  uz: {
+const uz = {
     nav: {
       results: "Natijalar",
       projects: "Loyihalar",
@@ -189,7 +188,12 @@ export const translations = {
         "Influencer marketing",
       ],
     },
-  },
+};
+
+export type Translations = typeof uz;
+
+export const translations: Record<Locale, Translations> = {
+  uz,
   ru: {
     nav: {
       results: "Результаты",
@@ -379,6 +383,4 @@ export const translations = {
       ],
     },
   },
-} as const;
-
-export type Translations = (typeof translations)["uz"];
+};
